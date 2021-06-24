@@ -108,7 +108,7 @@ body {
   padding: 0em 2em;
   font-size: 1.25em;
   color: none;
-  display: flex-wrap;
+  display: flex;
   background:url("../img/bkgd.jpg");
   justify-content: center;
  
@@ -116,6 +116,7 @@ body {
 .flex-container{
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content:space-between;
     max-width: 1200px;
 }
